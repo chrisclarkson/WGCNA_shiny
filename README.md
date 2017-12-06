@@ -1,6 +1,6 @@
 # WGCNA_shiny
 
-![](https://github.com/chrisclarkson/pics/Poster.png)
+![Screenshot](pics/Poster.png)
 
 Turning the main features of WGCNA into an interactive shiny page allowing for co-expression of cluster identification, network visualisation and correlation of eigengeme values to phenotypes.
 
