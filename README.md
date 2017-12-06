@@ -1,6 +1,10 @@
 # WGCNA_shiny
 
-![Screenshots](/pics/Poster.png)
+
+
+<p>
+    <img src="pics/Poster.png" />
+</p>
 
 Turning the main features of WGCNA into an interactive shiny page allowing for co-expression of cluster identification, network visualisation and correlation of eigengeme values to phenotypes.
 
@@ -12,7 +16,7 @@ You can visualise the network on the shiny page or have a more dynamic network v
 
 Necessary file format
 The initially uploaded file (containing gene-expression data or compositional microbiotic co-abundance data) must contain the genes/genera that are to be correlated and clustered in the columns and the samples must be specified in the rows. For labeling the nodes and to maximize the effectiveness of the displayed network the file must contain a header that specifies the column names, otherwise the nodes will be labeled independently.
-
+![](pics/Poster.png)
 
 To upload an external-information file the style of row names must be common between each file. The rows can have been subjected to rearrangement between each file. 
 
