@@ -39,7 +39,7 @@ In the website sidebar, there is a navigation-panel that allows the user to spec
 
 ![](https://github.com/chrisclarkson/pics/blob/master/filtering.png)
 
-The first step in the pipeline is to filter out samples and nodes that are not informative. The first round of HC is done to remove samples too far displaced from all others and would perturb the inference of clusters if included. The user will choose the threshold via an interactive slider entitled "Minimum cluster size".
+The first step in the pipeline is to filter out samples and nodes that are not informative. The first round of hierarchical clsutering (HC) is done to remove samples too far displaced from all others and would perturb the inference of clusters if included. The user will choose the threshold via an interactive slider entitled "Minimum cluster size".
 
 
 # Step 2: Soft threshold selection
