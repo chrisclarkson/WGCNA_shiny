@@ -2,10 +2,16 @@
 
 ![](https://github.com/chrisclarkson/pics/blob/master/Poster.png)
 
-Turning the main features of WGCNA into an interactive shiny page allowing for co-expression of cluster identification, network visualisation and correlation of eigengeme values to phenotypes.
+This is work from my masters thesis. I had to make a website that took biological data as input and infer a network. I chose WGCNA because the output was interpretable. (For any information of WGCNA please see: https://labs.genetics.ucla.edu/horvath/htdocs/CoexpressionNetwork/Rpackages/WGCNA/)
+
+The code herein turns the WGCNA main features of the WGCNA workflow into an interactive shiny page allowing for co-expression of cluster identification, network visualisation and correlation of eigengeme values to phenotypes.
 
 
 You can visualise the network on the shiny page or have a more dynamic network visualisation output can be saved.
+
+# Installation
+
+
 
 # Methodology
 
