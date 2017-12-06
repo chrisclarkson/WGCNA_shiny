@@ -10,21 +10,27 @@ The code herein turns the main features of the WGCNA workflow into an interactiv
 
 You can visualise the network on the shiny page or have a more dynamic network visualisation output can be saved.
 
-# Sample data
-I have provided sample data in 'microbial_abundance.txt' which contains compositional microbiotic co-abundance data. I should mention that this data is not suited to WGCNA and the output can not be interpretted as biologically meaningful. However I am supplying this data as it will give a fully annotated example of the output that this code can produce.
 
 
 # Installation
 
 git clone https://github.com/chrisclarkson/WGCNA_shiny/
+
 cd WGCNA_shiny/
+
 R
+
 runApp('./app.R')
+
+
+# Sample data
+I have provided sample data in 'microbial_abundance.txt' which contains compositional microbiotic co-abundance data. I should mention that this data is not suited to WGCNA and the output can not be interpretted as biologically meaningful. However I am supplying this data as it will give a fully annotated example of the output that this code can produce.
+# Note: Necessary file format and sample data
+The initially uploaded file (containing gene-expression data or compositional microbiotic co-abundance data) must contain the genes/genera that are to be correlated and clustered in the columns and the samples must be specified in the rows. For labeling the nodes and to maximize the effectiveness of the displayed network the file must contain a header that specifies the column names, otherwise the nodes will be labeled independently.
+
 
 # Methodology
 
-# Note: Necessary file format
-The initially uploaded file (containing gene-expression data or compositional microbiotic co-abundance data) must contain the genes/genera that are to be correlated and clustered in the columns and the samples must be specified in the rows. For labeling the nodes and to maximize the effectiveness of the displayed network the file must contain a header that specifies the column names, otherwise the nodes will be labeled independently.
 
 In the website sidebar, there is a navigation-panel that allows the user to specify if the files to be uploaded are text files or CSV files. Users can also specify how the files are delimited.
 
